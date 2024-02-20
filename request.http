@@ -1,0 +1,4 @@
+GET https://my-json-server.typicode.com/EnkiGroup/DesafioReactFrontendJunior2024/todos
+Content-Type: application/json
+
+###

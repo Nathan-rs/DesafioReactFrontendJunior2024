@@ -1,0 +1,72 @@
+
+.cardtask {
+    display: flex;
+    border: 1px solid #000;
+    align-items: center;
+}
+
+.cardname {
+    width: 30rem;
+    padding: 0.52rem;
+}
+
+.task-completed {
+    text-decoration: line-through;
+}
+
+.task-initial {
+    text-decoration: initial;
+}
+
+
+li {
+    list-style: none;
+}
+
+.view-task{
+    display: flex;
+    align-items: center;
+    width: 28.3rem;
+    padding: 0.52rem;
+    border: none;
+    background-color: #fff;
+}
+
+
+.edit:focus {
+    border: 1px solid #a1a1a1;
+    padding: 0.52rem;
+}
+
+.checked {
+    text-decoration: line-through;
+    text-decoration-color: #a1a1a1;
+    color: #696969;
+}
+
+.checkbox {
+    width: 24px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox.checked {
+    color: #0da666;
+}
+
+.checkbox.checked .checkbox-icon {
+    display: block;
+}
+
+.checkbox-icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fff;
+}

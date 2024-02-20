@@ -1,0 +1,13 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    color: #bababa;
+}
+
+.negrito {
+    color: #757575;
+}

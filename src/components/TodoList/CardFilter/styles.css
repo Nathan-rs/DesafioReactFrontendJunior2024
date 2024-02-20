@@ -1,0 +1,39 @@
+
+button {
+    margin: 0.3rem 0.3rem;
+    padding: 0.2rem;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-hover:hover {
+    text-decoration: underline;
+    text-decoration-color: #888686;
+}
+.isVisible {
+    visibility: visible;
+}
+
+.isNoVisible {
+    visibility: hidden;
+}
+
+.clicado {
+    border: 1px solid #ccc;
+}
+
+
+.card-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 28.4rem;
+}
+
+p {
+    margin: 0.5rem;
+}
